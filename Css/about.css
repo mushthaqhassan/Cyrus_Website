@@ -760,7 +760,7 @@ position: relative;
 .cta-inner {
   height: clamp(180px, 22vw, 260px);
   border-radius: 22px;
-  background: url("/Images/contact sub img.jpg") no-repeat center / cover;
+  background: url("../Images/contact-sub-img.jpg") no-repeat center / cover;
   position: relative;
   display: flex;
   align-items: center;

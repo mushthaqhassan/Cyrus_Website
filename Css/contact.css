@@ -312,7 +312,7 @@ display: flex;
   color: #fff;
 }
 .social-fb { background: #1877f2; color: #fff; }
-.social-tw { background: #1da1f2; color: #fff; }
+.social-tw { background: #1da1f2; color: #fff;  display: none;}
 
 /* ── RIGHT PANEL / FORM ── */
 .card-right {

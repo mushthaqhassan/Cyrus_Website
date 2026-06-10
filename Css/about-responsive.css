@@ -1,0 +1,221 @@
+
+/* RESPONSIVE FIXES - Add after existing CSS */
+
+/* Global container fixes */
+.nav,
+.spotlight,
+.vision,
+.hero,
+.cta-banner{
+    max-width: 1280px;
+
+}
+
+@media (max-width:1200px){
+    .nav{gap:60px !important;}
+    .hero,.spotlight{
+        
+        
+    }
+}
+
+@media (max-width:992px){
+    .nav{
+        justify-content:space-between;
+        gap:20px !important;
+        position:relative;
+    }
+
+    .spotlight{
+            /* flex-direction: column; */
+        text-align: center;
+    }
+
+    .spotlight-text,
+    .hero-body{
+        max-width:100% !important;
+    }
+
+    .spotlight-btns{
+        justify-content:center;
+    }
+
+    .vision{
+        
+    }
+
+    .section-title1{
+        font-size:42px !important;
+        text-align:center;
+    }
+
+    .vision-cols{
+        grid-template-columns:1fr !important;
+    }
+
+    .hero{
+        grid-template-columns:1fr !important;
+        min-height:auto !important;
+    }
+
+    .hero-left{
+        text-align:center;
+        align-items:center;
+    }
+
+    .hero-title{
+        font-size:38px !important;
+    }
+
+    .footer-container{
+        text-align: center;
+    }
+    /* .footer-socials {
+    display: flex;
+    gap: 12px;
+    margin-left: 29%;
+    margin-top: 20px; */
+}
+
+
+
+       
+
+
+@media (max-width:768px){
+    .spotlight-heading{
+        font-size:36px !important;
+    }
+
+    .hero-title{
+        font-size:32px !important;
+    }
+
+    .cta-banner{
+        margin:40px 16px !important;
+        padding:0 !important;
+    }
+
+    .cta-content h2{
+        font-size:28px !important;
+    }
+
+    .footer-container{
+        grid-template-columns:1fr !important;
+    }
+
+    .footer-bottom{
+        flex-direction:column;
+        align-items:flex-start;
+    }
+    .footer-brand p {
+    line-height: 1.7;
+    max-width: 300px;
+    font-size: 14px;
+    margin: 0 auto;
+}
+.footer-socials {
+    display: flex;
+    width: 21%;
+    gap: 12px;
+    /* justify-content: space-between; */
+    /* margin-top: 20px; */
+    text-align: center;
+    margin: o auto;
+    margin: 0 auto;
+}
+
+}
+ 
+@media (max-width:576px){
+    .nav-wrapper{
+        height:80px !important;
+    }
+
+    .nav-logo-text{
+        font-size:28px !important;
+    }
+
+    .spotlight{
+        padding-top:20px !important;
+    }
+
+    .spotlight-heading{
+        font-size:28px !important;
+    }
+
+    .spotlight-text,
+    .vision-col,
+    .hero-body{
+        font-size:14px !important;
+        line-height:1.8 !important;
+    }
+
+    .section-title1{
+        font-size:34px !important;
+    }
+
+    .hero-title{
+        font-size:26px !important;
+    }
+
+    .image-wrap{
+        max-height:none !important;
+    }
+
+    .stat-card{
+        margin-right:0 !important;
+    }
+
+    .cta-content h2{
+        font-size:22px !important;
+    }
+
+    .footer-links{
+        flex-wrap:wrap;
+    }
+    .footer-socials {
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+    width: 30%;
+}
+}
+@media (max-width:448px) {
+.footer-socials {
+        display: flex;
+        gap: 12px;
+        margin-top: 20px;
+        width: 37%;
+    }
+}
+@media (max-width:400px){
+    .btn-yellow,
+    .btn-outline,
+    .btn-primary{
+        width:100%;
+        text-align:center;
+    }
+
+    .spotlight-btns{
+        flex-direction:column;
+    }
+
+    .hero-title{
+        font-size:22px !important;
+    }
+    .footer-socials {
+        display: flex;
+        gap: 12px;
+        /* margin: 0 auto; */
+                width: 43%;
+    }
+}
+@media (max-width:375px) {
+    .footer-socials {
+        display: flex;
+        gap: 12px;
+        /* margin: 0 auto; */
+                width: 50%;
+    }
+}

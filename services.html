@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Css/services.css">
+    <link rel="shortcut icon" href="Images/favicon.svg" type="image/x-icon">
+    <title>Services – Cyrus Solar</title>
+</head>
+<body>
+  <!-- ══════════════ PAGE TRANSITION OVERLAY ══════════════ -->
+  <div id="page-transition-overlay"></div>
+
+<!-- ══════════════ NAV ══════════════ -->
+  <nav>
+    <a href="index.html" class="script-heading">Cyrus</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button onclick="sendWhatsApp()" class="nav-cta">
+      <span class="dot">●</span>Free Quote
+    </button>
+    <button class="hamburger" id="hamburger" >
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ══════════════ HERO ══════════════ -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <h1 class="blur-reveal">Advanced Solar <span class="script">Solutions</span> for<br>Homes, Businesses & Industries</h1>
+      <p class="blur-reveal" style="transition-delay:0.2s">Cyrus Solar delivers reliable and energy-efficient solar systems <br> designed to reduce electricity costs and support sustainable living.</p>
+      <button onclick="sendWhatsApp()" class="btn-primary blur-reveal" style="transition-delay:0.4s">Get Free Consultation</button>
+    </div>
+  </section>
+
+  <!-- ══════════════ STATS ══════════════ -->
+  <div class="stats-bar">
+    <div class="stat-item reveal" style="transition-delay:.2s">
+      <div class="stat-stars"><img src="../Images/5 Star.svg" alt="Star Rating" class="star-rating" /></div>
+      <div class="label">Residential &amp; Commercial Projects</div>
+    </div>
+    <div class="stat-item reveal" style="transition-delay:.08s">
+      <div class="num">10,000+</div>
+      <div class="label">Units Saved Monthly</div>
+    </div>
+    <div class="stat-item reveal" style="transition-delay:.2s">
+      <div class="num">500+</div>
+      <div class="label">Happy Customers</div>
+    </div>
+  </div>
+
+  <!-- ══════════════ SERVICES ══════════════ -->
+  <section id="services">
+    <div class="services-header reveal">
+      <div class="reveal">
+        <span class="section-tag">OUR SERVICES</span>
+        <h2 class="section-title">Our Solar <span class="script">Energy</span> Solutions</h2>
+      </div>
+      <p class="section-sub">We offer customized solar systems designed to power homes, businesses, and industries efficiently</p>
+    </div>
+
+    <div class="services-grid">
+
+      <!-- Card 1 -->
+      <div class="service-card reveal" id="residential" style="transition-delay:.04s">
+        <div class="img-wrap">
+          <img src="../Images/Residential Solar.png" alt="Residential Solar" />
+          <span class="icon-badge"><img src="Images/Home energy logo.svg" alt="home energy logo" srcset=""></span>
+        </div>
+        <div class="body">
+          <h3>Residential Solar</h3>
+          <p>Efficient rooftop solar systems designed for homes to reduce electricity bills, increase energy savings, and provide reliable power for everyday living.</p>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="service-card reveal" style="transition-delay:.08s" id="commercial">
+        <div class="img-wrap">
+          <img src="../Images/Commercial Solar.png" alt="Commercial Solar" />
+          <span class="icon-badge"><img src="Images/Home energy logo.svg" alt="home energy logo" srcset=""></span>
+        </div>
+        <div class="body">
+          <h3>Commercial Solar</h3>
+          <p>Smart solar energy solutions for offices, shops, hotels, and commercial spaces to lower operational costs and improve energy efficiency.</p>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="service-card reveal" style="transition-delay:.16s" id="industrial">
+        <div class="img-wrap">
+          <img src="../Images/Industrial Solar.png" alt="Industrial Solar" />
+          <span class="icon-badge"><img src="Images/Home energy logo.svg" alt="home energy logo" srcset=""></span>
+        </div>
+        <div class="body">
+          <h3>Industrial Solar</h3>
+          <p>High-performance industrial solar systems built to handle large-scale energy demands while reducing long-term electricity expenses.</p>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="service-card reveal" style="transition-delay:.04s" id="off-grid">
+        <div class="img-wrap">
+          <img src="../Images/Off-Grid Solar Systems.png" alt="Off-Grid Solar" />
+          <span class="icon-badge"><img src="Images/Home energy logo.svg" alt="home energy logo" srcset=""></span>
+        </div>
+        <div class="body">
+          <h3>Off-Grid Solar Systems</h3>
+          <p>Independent solar power solutions with battery backup designed for uninterrupted electricity in remote or power-sensitive areas.</p>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="service-card reveal" style="transition-delay:.12s" id="water-heating">
+        <div class="img-wrap">
+          <img src="../Images/Solar Water Heating.png" alt="Solar Water Heating" />
+          <span class="icon-badge"><img src="Images/Home energy logo.svg" alt="home energy logo" srcset=""></span>
+        </div>
+        <div class="body">
+          <h3>Solar Water Heating</h3>
+          <p>Eco-friendly solar water heating systems for homes, hotels, hospitals, and industries with low maintenance and high efficiency.</p>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="service-card reveal" style="transition-delay:.2s" id="maintenance">
+        <div class="img-wrap">
+          <img src="../Images/Solar Maintenance & Support.png" alt="Solar Maintenance" />
+          <span class="icon-badge"><img src="Images/Home energy logo.svg" alt="home energy logo" srcset=""></span>
+        </div>
+        <div class="body">
+          <h3>Solar Maintenance &amp; Support</h3>
+          <p>Comprehensive maintenance and support services to ensure maximum solar performance, long-term efficiency, and reliable power generation.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+<!-- ===== BENEFITS ===== -->
+<section id="benefits">
+
+  <div class="benefits-header reveal">
+    <div class="reveal">
+      <span class="section-tag">BENEFITS</span>
+      <h2 class="section-title">Why <span class="script"> Switch </span> to Solar Energy?</h2>
+    </div>
+
+    <p class="section-sub">
+      Solar energy helps reduce costs, increase energy independence, and create a cleaner future
+    </p>
+  </div>
+
+  <div class="benefits-grid">
+
+    <div class="benefit-card reveal" style="transition-delay:.16s">
+      <div class="benefit-icon">
+        <img src="Images/Leaf logo.svg" class="leaf">
+      </div>
+      <h4>Environmental Benefits</h4>
+      <p>Reduce carbon emissions and support a cleaner, greener future with renewable solar energy.</p>
+    </div>
+
+    <div class="benefit-card reveal" style="transition-delay:.04s">
+      <div class="benefit-icon">
+        <img src="Images/Indian Rupee logo.svg" class="rupee">
+      </div>
+      <h4>Financial Benefits</h4>
+      <p>Lower electricity bills and enjoy long-term energy savings with efficient solar systems.</p>
+    </div>
+
+    <div class="benefit-card reveal" style="transition-delay:.08s ">
+      <div class="benefit-icon">
+        <img src="Images/Energy logo.svg" class="energy">
+      </div>
+      <h4>Energy Independence</h4>
+      <p>Generate your own power and reduce dependence on traditional electricity sources.</p>
+    </div>
+
+    <div class="benefit-card reveal" style="transition-delay:.12s">
+      <div class="benefit-icon">
+        <img src="Images/Reliable Performance logo.svg" class="performance">
+      </div>
+      <h4>Reliable Performance</h4>
+      <p>Durable solar systems designed for consistent performance with minimal maintenance.</p>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ===== CTA BANNER ===== -->
+<section class="cta-banner">
+  <div class="cta-overlay reveal" style="transition-delay:.16s"></div>
+
+  <div class="cta-content reveal" style="transition-delay:.04s">
+    <span>Need Help ?</span>
+    <h2>Don't Know What to DO ?</h2>
+    <a href="contact.html" class="btn-primary">Contact Us</a>
+  </div>
+</section>
+
+
+<!-- ══════════════ FOOTER ══════════════ -->
+<footer class="footer">
+  <div class="footer-container">
+
+    <!-- Brand -->
+    <div class="footer-brand">
+      <h2 class="logo">Cyrus</h2>
+      <p>
+        Reliable solar solutions for homes and businesses, focused on long-term savings and clean energy
+      </p>
+
+      <div class="footer-socials">
+        <a href="https://www.instagram.com/cyrus_solar_solutions/" target="_blank"><img src="Images/instagram.svg" alt=""></a>
+        <a href="https://www.facebook.com/61553609997885/about/" target="_blank"><img src="Images/Facebook.svg" alt=""></a>
+        <a href="https://www.meta.com/cyrus_solar_solutions" target="_blank"><img src="Images/Meta.svg" alt=""></a>
+      </div>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Services -->
+    <div class="footer-col">
+      <h4>Our Services</h4>
+      <ul>
+        <li><a href="services.html#residential">Residential Solar</a></li>
+        <li><a href="services.html#commercial">Commercial Solar</a></li>
+        <li><a href="services.html#industrial">Industrial Solar</a></li>
+        <li><a href="services.html#water-heating">Solar Water Heating</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact -->
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <p>+91 8086 512 712<br>+91 9539 512 712</p>
+      <p>cyrussolarsolutions@gmail.com</p>
+      <p>Edavanna, Malappuram, Kerala</p>
+    </div>
+
+  </div>
+
+  <!-- Bottom -->
+  <div class="footer-bottom">
+    <p>© 2026 Cyrus Solar. All Rights Reserved.</p>
+
+    <div class="footer-links">
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="terms-conditions.html">Terms & Conditions</a>
+    </div>
+  </div>
+</footer>
+
+<script src="/Js/services.js"></script>
+
+<!-- ══════════════ PAGE TRANSITION + BLUR REVEAL ══════════════ -->
+<script>
+(function () {
+  /* Page Transition */
+  const overlay = document.getElementById('page-transition-overlay');
+  document.addEventListener('click', function (e) {
+    const link = e.target.closest('a[href]');
+    if (!link) return;
+    const href = link.getAttribute('href');
+    if (!href || href.startsWith('#') || href.startsWith('http') || href.startsWith('https') || href.startsWith('mailto') || href.startsWith('tel') || link.target === '_blank') return;
+    e.preventDefault();
+    overlay.classList.add('fade-out');
+    setTimeout(function () { window.location.href = href; }, 420);
+  });
+  document.querySelectorAll('button[onclick]').forEach(function (btn) {
+    const oc = btn.getAttribute('onclick');
+    if (oc && oc.includes('window.location.href')) {
+      btn.addEventListener('click', function (e) {
+        const match = oc.match(/window\.location\.href\s*=\s*['"]([^'"]+)['"]/);
+        if (match) { e.stopImmediatePropagation(); overlay.classList.add('fade-out'); setTimeout(function () { window.location.href = match[1]; }, 420); }
+      });
+    }
+  });
+
+  /* Blur Reveal Scroll */
+  const observer = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) { entry.target.classList.add('active'); observer.unobserve(entry.target); }
+    });
+  }, { threshold: 0.15 });
+  document.querySelectorAll('.blur-reveal').forEach(function (el) { observer.observe(el); });
+})();
+</script>
+
+</body>
+</html>

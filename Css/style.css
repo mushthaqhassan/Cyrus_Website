@@ -1075,7 +1075,7 @@ margin-top: 15px;
   margin: 60px var(--px);
   height: 260px;
   border-radius: 20px;
-  background: url("../Images/contact-sub-img.jpg") no-repeat center / cover;
+  background: url("/Images/contact sub img.jpg") no-repeat center / cover;
   position: relative;
   display: flex;
   align-items: center;
@@ -2689,31 +2689,17 @@ body {
 
 
 
-/* Text Reveal Animation */
-/* Text Reveal Animation */
-/* .blur-reveal {
-  opacity: 0;
-  filter: blur(14px);
-  transform: translateX(-40px);
-  transition: opacity 0.9s ease, filter 0.5s ease, transform 0.5s ease;
-}
-
-.blur-reveal.active {
-  opacity: 1;
-  filter: blur(0px);
-  transform: translateX(0px);
-} */
-
-
+/* ═══ SCROLL REVEAL ANIMATION ═══ */
 .blur-reveal {
   opacity: 0;
-  filter: blur(14px);
-  transform: translateX(-40px);
-  transition: opacity 0.5s ease, filter 0.5s ease, transform 0.5s ease;
+  transform: translateX(-28px);
+  transition: opacity 0.65s cubic-bezier(0.22, 1, 0.36, 1),
+              transform 0.65s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, transform;
 }
 
 .blur-reveal.active {
   opacity: 1;
-  filter: blur(0px);
   transform: translateX(0px);
+  will-change: auto;
 }
